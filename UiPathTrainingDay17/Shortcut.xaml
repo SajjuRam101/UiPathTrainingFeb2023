@@ -1,0 +1,153 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Shortcut" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="566,858" sap2010:WorkflowViewState.IdRef="Shortcut_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="31">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Shortcut" sap:VirtualizedContainerService.HintSize="576,793.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Music School Registration Form - Jotform Form Builder" sap:VirtualizedContainerService.HintSize="514,682.6666666666666" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="ebff24a0-1964-43b1-9929-6ceba4f2171a" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,463.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="338,54" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+              <ui:CommentOut.Body>
+                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="400,296" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="338,185.33333333333334" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(tab)][u(hk)][d(hk)][k(tab)][u(hk)][d(hk)][k(tab)][u(hk)][d(hk)][k(enter)][u(hk)]" Version="V3" />
+                </Sequence>
+              </ui:CommentOut.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:CommentOut>
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="338,54" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+              <ui:CommentOut.Body>
+                <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="400,250" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Up" DisplayName="Mouse Scroll" sap:VirtualizedContainerService.HintSize="338,139.33333333333334" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="3" Version="V3" />
+                </Sequence>
+              </ui:CommentOut.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:CommentOut>
+            <uix:NSelectItem DisplayName="Select Item 'Choice of Instrument*'" sap:VirtualizedContainerService.HintSize="338,159.33333333333334" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="Guitar" ScopeIdentifier="ebff24a0-1964-43b1-9929-6ceba4f2171a" Version="V3">
+              <uix:NSelectItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="6">
+                  <x:String>Please Select</x:String>
+                  <x:String>Violin</x:String>
+                  <x:String>Guitar</x:String>
+                  <x:String>Bass</x:String>
+                  <x:String>Drums</x:String>
+                  <x:String>Vocals</x:String>
+                </scg:List>
+              </uix:NSelectItem.Items>
+              <uix:NSelectItem.Target>
+                <uix:TargetAnchorable BrowserURL="https://form.jotform.com/230597831738164?preview=true&amp;orientation=portrait&amp;branding21=1" DesignTimeRectangle="796, 609, 225, 30" DesignTimeScaleFactor="1.5" ElementType="DropDown" FriendlyName="'Please Select'" FullSelectorArgument="&lt;webctrl src='https://form.jotform.com/230597831738164?preview=true&amp;amp;orientatio*' tag='IFRAME' /&gt;&lt;webctrl aria-label='Choice of Instrument' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl src='https://form.jotform.com/230597831738164?preview=true&amp;amp;orientatio*' tag='IFRAME' /&gt;&lt;webctrl aria-label='Choice of Instrument' tag='SELECT' type='' class='form-dropdown validate[required] form-validation-error' aaname=' Choice of Instrument* ' /&gt;" Guid="3b7cbbad-dec8-48a1-a8de-2f34559e2f6b" InformativeScreenshot="f4f905fd818c85d0815a9761f1e820b0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Music School Registration Form - Jotform Form Builder' /&gt;" SearchSteps="FuzzySelector" Version="V1" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="571, 609, 225, 57" ElementType="Text" FriendlyName="'Choice of Instrument*'" FullSelectorArgument="&lt;webctrl src='https://form.jotform.com/230597831738164?preview=true&amp;amp;orientatio*' tag='IFRAME' /&gt;&lt;webctrl aaname=' Choice of Instrument ' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl src='https://form.jotform.com/230597831738164?preview=true&amp;amp;orientatio*' tag='IFRAME' /&gt;&lt;webctrl aaname=' Choice of Instrument ' tag='LABEL' type='' class='form-label form-label-left form-label-auto' check:innerText='Choice of Instrument*' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOUAAAA9CAYAAABSpK5UAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAApWSURBVHhe7Z1dTxtXGoD3J+Rmpf0Je5GL1d5V2h/Qq9298QWjwlJLFghvJQsFFIgshVQaZUWkgIKKpSRoIRKJUAgpNMipDBIiZAndupuargtLHZq4Ijit3FKnbh2n754zc87MmfGZ8RcwE/xaetR05swn55nzMee88xuAXUAQxC9kAaVEEF+QJbwkAEqJIN5DhXxF0H8oJYJ4jl5C0t/u/QRKiSDeQktJ/UeFPH36NEqJIN6SI+i/d976E5w6dQqlRBBv0aXc3d3VhEQpEcRzdCnv3buHUiKIP9ClvHv3LkqJIP4ApUQQn9GMlOU0ZB/EQD3bBZ1KAAIBgtIB4fMqzD7YgEK5cpvUVZaOcO1x5fpDITcN59gxAoPTsC9L43fIvU3diUIk2MbuVxuEBichI0uLnDAalXJvDi718AwjR+kbg62CdTuUsjayH4aN+2SgzkFBkhY5aTQiZSEB17ptGcYBJWqV4likfONJw6rK71MHXNtkyyU1D+QkUreUO7B+RSghuy/A/OMNKPEMU9yA5EQEFL6eZKqptLk9SlkLSYgP8vt0BuI5WRrk5FKvlAdzoHLhFBXWbdVTnTQkr4YhcjEGS9tJU1iCRcpkGjKLqtFuUoJhUO8kpG1R2sbKLA/DUE8HE74NOnsGYHx5rTJ9teprLg43L0Yg1M7StAehf2QaMge2dJSDNViKDVjSDsVm5GndKCcheSsK/SGhjXg2Cjf/nbSme3yZra8EH2KtQr1SJoeNTNL5zxV5GhdEKZV2eZs0NJGAkrhdYQWm+pzbrxVtVxcpCyTTh3mnlJ32AVgSSyXabnaqpiukBNsT0rrhth9CaHgO9vmDBaVE6pVyf/GMkUnUlbQ0jRuilDRjzz/d0ZaXnk6aIgVICVzk26RhfcQsXfpvJCBPM3A5BVu3zxjVZEWdgzw/jpOURdIWDrLlwrELycsQ4vsZWWCdKSnSrmPHFc+TCDbKBeudhCzftxPlDZjtZekDQbi0zKr6pSSsXgmy5UTMG+IDDquvrU0TUjby5BalPLcoVt0cMqIo2PszpngaaVgd5tt0wexTyTaClKWHKktrP7bYsRKFVVo1zU5ChKUN394Q0pJ78FGEpSXt5W1zuRRS8vEHR0XNorwGN9/jxxUfRChla+NhSWmXOvlBZUYsrESN9P0f2dpfhPx983wM0Ryk3LrRYaSt9kARBXbj3P2UdHuOeMzxZOX61IRZLTfPCaVsbeqUUsyszbYp7WKY68yMKD4ErKUbQ2iDVZPS7dh2xOO6IT0ngWrHlNc8UMrWpt6OnvwMDLFMFFBIVS8vSUPI3o5A5OIYxMXXJYR6payrpOSllpOU0lJJjnjcauK5UXtJ2Wa+j0QpW5x6pZS8p4xvpyzvKVO3BoT3lAEYWjarePVKKbbt3NuUYZjPsuU1tCnt7URTHiIHPa+n1yHM9zGyIPQGk+sfYctrEKb0SK2tTUlfL2GbEtGoW0pCHSN6Ar3XIdtESWnpBXXrfTV6TQkOUtp7X2d39Dax1vPLX5N0j8GWdr4bMC/0mo4+0EvLwuaY8ZCw9Pg6UV6BKeNeOfe+RiwPCZSytWlESkotY197hmH9W+t29UtJoA8Bl2Md2ntKpYuck9B5tUf245S2m5RsDlX3Csh+hvjgAwmW95QaKGVr06iUFG2UzRioZ4NmdZXOEqEjVRqYJeIoJYUfq/eIRvRcjEFSlvnZiJ4wn63hNvrHDTqi544KQ9VG9GiglK1NM1IiCHIEoJQI4jNQSgTxGbqUGDgLQXyDLiWGmEQQ36BLSX8YjBlBfAF+tgBBfAh+4AdBfAZ+Cg9BfEjNH41NwDVtpAlBNloGeTOZfpv85QnPJOsQj6n6eXXvpSzsTMJUovHpVCea3ByM307I17mBUvoa/0pJx4+y8JXNzHE8kdCxwYsX9FhDV2uV8hOA0F8AFlcJISLl3wFekG0vkGUzZJ10G8QLfCtl1SgErYwYBa9WKV/EiIjkz0353W/Nf1MCo/JtkGPl118pTxqU0j4z42AN4iNh9o2RNujsVSHO5i9asM/YICihCKi34sJ0JnHWhA0tA1pnVcxvLsB4RJ+NoYSGYf3AKeyGjnzminCd9BjaeQrXEx2GVTqpmsWjPSfErh1dlMxcIRR2ZmD8vDmjRgnVOMulyr0Uz99CLQ/NPCkll/8B8Hsm47sXAD4jy36UpEWOFS7k69eHIWWwC8LS+YNCdACK23xFgtITYxOO65GyA0LdwtxLFgayKSm7yfXIzlMhDw8iWcVygnXSMjn+CqtaStA+7SCKWee9bEpK+JxUV/9IhCQE2H8/JsukaZHjgsv4+nUGyuWvDkFKQugKm7hb3oD5qCmJGIYjdZUv74DxRyxkSDkFqRvmx23EUCLO1VebtL1jkKLzHcm+sjm9RGlKSkKnOg3ZElluux6nqAQB5TKk+DHyc6AyqZUoeUho+9mB/QeqIWrkQ0HiBu5lQ9VXyhTt4CF/8r5pUjreAfgDLTGxw8dLRCFfvfoKfvnlf4cgJc2Q4pNfmmFSEI+yZaRK1j8Rh6wRo0ZOrVLKQl82J6V1orG4L2v8ng2YNeK4mlKaX9ASYtNqJGG+j6UPjsEWX173vXRZXhVSKqq0g4f9/8dnsKT0EFpltQv5009bh9SmFLcRg1AJGcaSuTVoW41+23JNj8Mj7sOW3llKe8bXaU5KodQjiPuyBuASz4OIrIVCEQNtucHTExq4l41LifgFsw1pCvny5ZdQeLx0BFKK68QMU05D6pb4hS4BpUvr7BHlrE1KefiMo5Ky+nlYS3FnhPNu5F6ilG88vNpK25C8hPzhhy+g1Dd4jFJySNsvszkDsyMDEDZi2OgoV8zqoTQauoafpRQ/iSA/twoauZeb5ucRUMo3D15KlssZKJV2oFjcgoOD/8KPCdLO/3O7B1Layc/AJZ5eFEIoDZqR0nnbo5CSBqbuMtKPPtQ/FKRRXIBRtrzpe1nvPUZ8BS8lebW1UPgS8vkUFFX1GKWk8VDFGKzbZi9rfjtmpn/vuvZKQ1snSNk5oe+npHUOVZfS8m2QwZgejY6+YxRix1KOQkpLQOluFVbpclp1N3qZ20BdMa+/aSnfn9aq/aWi8ABAfIvYljRLyS/gxYv/wKtg+HhLStcYrBpBIonQkyruh6Ptr7qUWiBmaQDpIISE5UciJdtG2nYmhEYWrEGdG7iXUCbna7+X9m0RX8J7XGnVlXfu0FLy+fNPAf76Nw+qr7kExGPWtqQS7HKMw5pPjhmjZ7QYsx/QyOg1SEn5Ng5TxoiaNgidH4alHVJiHWmb0kQf0dPFRuaQ6wxF5KN/GryXhZ1pGGUjmbTrO3sdMsJ6xJ9wKWnV9eefadU1Dd999zl8880nmpA1SIkgyGEitieLxW2tg4dWXZ89e4RSIogX2NuT9DVILvcZfP31OkqJIF4gk3J/Pwm7u/9CKRHEC0Qp6YCB77/fhOfPk/DkyUOUEkG8QC7lp5DJoJQI4gkoJYL4DJmUe3soJYJ4BkqJID4DpUQQn4FSIojPqC5lO/wf35mW8oA+E8sAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NSelectItem.Target>
+            </uix:NSelectItem>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="0204798288d67831afbd47b7aa6fb5fe.jpg" Selector="&lt;html app='chrome.exe' title='Music School Registration Form - Jotform Form Builder' /&gt;" Url="https://www.jotform.com/build/230597831738164#preview" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
