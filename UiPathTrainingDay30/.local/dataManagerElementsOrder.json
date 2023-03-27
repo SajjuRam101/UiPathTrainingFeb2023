@@ -1,0 +1,60 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "split2&Sequence_1",
+        "jsonTextData&Sequence_1",
+        "split1&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "JSON Data Reading.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "jsonTextData&Sequence_1",
+        "jsonTextObject&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "JSONCurrentConevertReading.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "apiResponseJson&Sequence_1",
+        "apiResponse&Sequence_1",
+        "amount&Sequence_1",
+        "currencyFrom&Sequence_1",
+        "currencyTo&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ReadXML.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "xmlTextData&Sequence_1",
+        "xmlDataObject&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}
