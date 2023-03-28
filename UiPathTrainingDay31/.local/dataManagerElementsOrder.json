@@ -1,0 +1,37 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": null,
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "UiPathForms.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "uipath_PhoneNumber&Sequence_1",
+        "uipath_LastName&Sequence_1",
+        "uipath_Gender&Sequence_1",
+        "uipath_Email&Sequence_1",
+        "uipath_DateOfBirth&Sequence_1",
+        "uipath_FirstName&Sequence_1",
+        "formDismissied&Sequence_1",
+        "output&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}
