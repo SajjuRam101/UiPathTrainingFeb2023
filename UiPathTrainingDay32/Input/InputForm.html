@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<title>UiPath Input</title>
+	</head>
+	<body>
+		<center>
+		<h2>Uipath Custom Input</h2><br><br>
+		First Name : <input type="text" id="firstName"><br><br>
+		Last Name : <input type="text" id="lastName"><br><br>
+		Gender : <input type="radio" name="gender" id="gender" value="Male"> Male
+				 <input type="radio"  name="gender" id="gender" value="Female"> Female <br><br>
+		Email : <input type="text" id="email"><br><br>
+		Phone Number : <input type="text" id="phone"><br><br>
+		<input type="button" value="Submit" class="submitbtn" onclick="submit()">
+		<input type="button" value="Cancel" class="cancelbtn" onclick="cancel()">
+		</center>
+	</body>
+	
+	<script>
+		function submit()
+		{
+			var vFirstName = document.getElementById("firstName").value;
+			var vLastName= document.getElementById("lastName").value;
+			var vGender=document.getElementById("gender").value;
+			var vEmail=document.getElementById("email").value;
+			var vPhone=document.getElementById("phone").value;
+			
+			window.external.setResult("Submit<sep>" + vFirstName + "<sep>" + vLastName + "<sep>" + vGender + "<sep>" + vEmail + "<sep>" + vPhone);
+			return true;
+		}
+		function cancel()
+		{
+			window.external.setResult("Cancel<sep>");
+			return true;
+		}
+	</script>
+	<style>
+	 .submitbtn
+	 {
+		background-color:green;
+		border: none;
+	 }
+	 .cancelbtn
+	 {
+		background-color:red;
+	 }
+	</style>
+	
+</html>
